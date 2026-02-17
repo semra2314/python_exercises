@@ -18,3 +18,6 @@ print("Elemanın indeksi:", ikili_arama(liste, 40))
 
 # Listeyi her seferinde ortadan ikiye bölerek arama alanını daraltır.
 # ağaç yapısı gibi düşünürseniz daha kolay anlaşılıyor
+
+# O(log n): Binary Search çok hızlıdır;
+# liste boyutu milyon kat artsa bile işlem sayısı sadece çok küçük bir miktar artar.
