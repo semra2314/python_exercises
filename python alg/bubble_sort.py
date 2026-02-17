@@ -11,3 +11,5 @@ def kabarcik_siralama(liste):
 
 sayilar = [64, 34, 25, 12, 22]
 print("Sıralı Liste:", kabarcik_siralama(sayilar))
+# O(n^2): Bubble Sort gibi algoritmalar yavaştır;
+# liste boyutu 10 kat artarsa işlem yükü 100 kat artar.
